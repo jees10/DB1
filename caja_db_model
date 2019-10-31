@@ -1,0 +1,60 @@
+CREATE TABLE bitacora_cajero (
+    saldo_inicial   NUMBER,
+    id              INTEGER NOT NULL,
+    nombre_cajero   VARCHAR2(100),
+    saldo_final     NUMBER,
+    fecha           DATE
+);
+
+ALTER TABLE bitacora_cajero ADD CONSTRAINT bitacora_cajero_pk PRIMARY KEY ( id );
+
+CREATE TABLE cajero (
+    saldo_inicial   NUMBER,
+    id              INTEGER NOT NULL,
+    nombre_cajero   VARCHAR2(100),
+    saldo_final     NUMBER,
+    fecha           DATE
+);
+
+ALTER TABLE cajero ADD CONSTRAINT cajero_pk PRIMARY KEY ( id );
+
+CREATE TABLE detalle_cajero (
+    monedas     FLOAT,
+    billetes    FLOAT,
+    cheques     FLOAT,
+    cajero_id   INTEGER NOT NULL
+);
+
+ALTER TABLE detalle_cajero ADD CONSTRAINT detalle_cajero_pk PRIMARY KEY ( cajero_id );
+
+CREATE TABLE tipos_trans (
+    id_trans      INTEGER NOT NULL,
+    transaccion   VARCHAR2(100)
+);
+
+ALTER TABLE tipos_trans ADD CONSTRAINT tipos_trans_pk PRIMARY KEY ( id_trans );
+
+CREATE TABLE transacciones (
+    id                     INTEGER NOT NULL,
+    cantidad               NUMBER NOT NULL,
+    fecha_trans            DATE,
+    cajero_id              INTEGER NOT NULL,
+    tipos_trans_id_trans   INTEGER NOT NULL
+);
+
+ALTER TABLE transacciones
+    ADD CONSTRAINT transacciones_pk PRIMARY KEY ( id,
+                                                  cajero_id,
+                                                  tipos_trans_id_trans );
+
+ALTER TABLE detalle_cajero
+    ADD CONSTRAINT detalle_cajero_cajero_fk FOREIGN KEY ( cajero_id )
+        REFERENCES cajero ( id );
+
+ALTER TABLE transacciones
+    ADD CONSTRAINT transacciones_cajero_fk FOREIGN KEY ( cajero_id )
+        REFERENCES cajero ( id );
+
+ALTER TABLE transacciones
+    ADD CONSTRAINT transacciones_tipos_trans_fk FOREIGN KEY ( tipos_trans_id_trans )
+        REFERENCES tipos_trans ( id_trans );
