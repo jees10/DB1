@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Factura_Pago" directorySegmentName="seg_0" id="613F6E54-F3DC-F624-1448-69CD6E540431">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:14:54 UTC</createdTime>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<engineerTo>
+<item key="D5660218-EE70-AB48-67EA-B5AB90979E8C" value="true"/>
+</engineerTo>
+<sourcePk>EBE6FB03-EEE8-D5BF-0093-F19336925755</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>33567DF0-6561-F675-756D-116C82487161</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE4AC8DD-52AA-45A7-9770-230DA1D7A4A9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

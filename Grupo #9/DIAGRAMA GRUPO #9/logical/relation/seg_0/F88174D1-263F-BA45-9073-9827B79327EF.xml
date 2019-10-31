@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Detalle_Cuentas" directorySegmentName="seg_0" id="F88174D1-263F-BA45-9073-9827B79327EF">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:15:33 UTC</createdTime>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<engineerTo>
+<item key="D5660218-EE70-AB48-67EA-B5AB90979E8C" value="true"/>
+</engineerTo>
+<sourcePk>07339970-D871-28F7-90C0-F60EEB216750</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EAF0B1D3-08F8-A2FC-3FD4-0726342F9545</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>79EC2258-5202-5F82-BEF4-0D8AB10D0345</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

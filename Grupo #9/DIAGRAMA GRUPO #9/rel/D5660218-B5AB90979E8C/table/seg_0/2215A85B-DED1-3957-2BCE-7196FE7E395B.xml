@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2215A85B-DED1-3957-2BCE-7196FE7E395B" name="Modo_Pago">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>33567DF0-6561-F675-756D-116C82487161</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pago" id="64E2FEA6-E970-F9FF-1C4B-C1958DC223DF">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>EA40D84D-927F-C630-C09F-53BBA5E381A2</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="96C72B6E-9B4D-D7D7-C51A-7011C4017F75">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>79A09EAB-AC8C-36C9-243B-995B2F65456D</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Otros_Detalles" id="948D5E00-7B6B-AB5E-C312-2E5747E087EB">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>89DDDA94-47DC-35D7-1E68-93AAB9BC0BCB</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35F83A36-0571-9A5B-9821-356FD79BACEA" name="Modo_Pago_PK">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>EBE6FB03-EEE8-D5BF-0093-F19336925755</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64E2FEA6-E970-F9FF-1C4B-C1958DC223DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

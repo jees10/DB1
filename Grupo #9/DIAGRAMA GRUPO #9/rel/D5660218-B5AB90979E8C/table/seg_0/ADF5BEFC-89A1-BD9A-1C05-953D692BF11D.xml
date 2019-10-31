@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADF5BEFC-89A1-BD9A-1C05-953D692BF11D" name="Factura">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>FE4AC8DD-52AA-45A7-9770-230DA1D7A4A9</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Factura" id="CACEEB79-ECF0-EA9A-1CBA-4AC6DD0B2A25">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>279E3745-995A-B283-72B9-D9A17FA405BD</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="E62D2AEC-46C8-9961-AB07-45D45A11C7F6">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>8ECB77CF-F60B-52A2-51D3-92EFE7703F0B</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_Id_Cliente" id="346D08A5-B414-AA05-8184-7187032FE574">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>71477E7E-8BDF-6B9B-35C6-6A7B90CBF19A</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39B1F1A8-0196-91C1-E62C-66387243D67B" referredColumn="BDCABE42-48AC-9414-1E79-D2A36C4BB68A"/>
+</associations>
+</Column>
+<Column name="Modo_Pago_ID_Pago" id="71FBCC5E-42E5-51F9-48F3-D4A52DB71BBC">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>8421556F-301D-3186-5CA5-CB11CA721A72</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C828B77F-C0A3-CF81-20C0-0061F96A1B76" referredColumn="64E2FEA6-E970-F9FF-1C4B-C1958DC223DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDF58BE2-114E-ED4F-5390-ECAF4C97622F" name="Factura_PK">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>21280925-6135-2848-571D-E22A5396A9A9</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CACEEB79-ECF0-EA9A-1CBA-4AC6DD0B2A25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1EB3181-C048-DE92-0E16-55417371D684" name="Factura_Cliente_FK">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>F8627EC7-BF1F-31B4-4A87-09CC77361D06</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="346D08A5-B414-AA05-8184-7187032FE574"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="177F182A-6568-7D17-86CB-8FDA0DD01DF4" name="Factura_Modo_Pago_FK">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>613F6E54-F3DC-F624-1448-69CD6E540431</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71FBCC5E-42E5-51F9-48F3-D4A52DB71BBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB03CCC4-6625-272D-48F8-941891FD5BA5" containerWithKeyObject="8E4EDCA8-0343-9D33-6BCA-4B690528DC16" localFKIndex="DDC2E3E7-5460-905A-F0BA-844B69EABFBB" name="Detalle_Factura_FK">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>1B8955A0-6F91-8147-726F-28C31A2384C5</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<referredTableLongName>Factura</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ADF5BEFC-89A1-BD9A-1C05-953D692BF11D</referredTableID>
+<keyObject>EDF58BE2-114E-ED4F-5390-ECAF4C97622F</keyObject>
+<referredKeyID>EDF58BE2-114E-ED4F-5390-ECAF4C97622F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Factura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

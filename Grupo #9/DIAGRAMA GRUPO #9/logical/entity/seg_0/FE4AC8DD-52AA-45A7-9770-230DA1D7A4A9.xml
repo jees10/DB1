@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE4AC8DD-52AA-45A7-9770-230DA1D7A4A9" name="Factura">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:06:59 UTC</createdTime>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<engineerTo>
+<item key="D5660218-EE70-AB48-67EA-B5AB90979E8C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Factura" id="279E3745-995A-B283-72B9-D9A17FA405BD">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:07:23 UTC</createdTime>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<engineerTo>
+<item key="D5660218-EE70-AB48-67EA-B5AB90979E8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="8ECB77CF-F60B-52A2-51D3-92EFE7703F0B">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:07:52 UTC</createdTime>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<engineerTo>
+<item key="D5660218-EE70-AB48-67EA-B5AB90979E8C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Cliente" id="71477E7E-8BDF-6B9B-35C6-6A7B90CBF19A">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:14:00 UTC</createdTime>
+<generatorID>F8627EC7-BF1F-31B4-4A87-09CC77361D06</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<engineerTo>
+<item key="D5660218-EE70-AB48-67EA-B5AB90979E8C" value="true"/>
+</engineerTo>
+<referedAttribute>42520DEC-9553-69F5-172A-8D46EC3AF0B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pago" id="8421556F-301D-3186-5CA5-CB11CA721A72">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:14:54 UTC</createdTime>
+<generatorID>613F6E54-F3DC-F624-1448-69CD6E540431</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<engineerTo>
+<item key="D5660218-EE70-AB48-67EA-B5AB90979E8C" value="true"/>
+</engineerTo>
+<referedAttribute>EA40D84D-927F-C630-C09F-53BBA5E381A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21280925-6135-2848-571D-E22A5396A9A9" name="Factura PK">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:07:49 UTC</createdTime>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D5660218-EE70-AB48-67EA-B5AB90979E8C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>279E3745-995A-B283-72B9-D9A17FA405BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

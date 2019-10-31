@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0124E130-7FFC-A294-ACF5-C20381E96F0B" name="Cliente">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>2912BBBB-BCB9-69C1-0593-1DE5E90132B9</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Cliente" id="BDCABE42-48AC-9414-1E79-D2A36C4BB68A">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>42520DEC-9553-69F5-172A-8D46EC3AF0B6</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="4026D928-5C4C-6188-E532-FA7767599917">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>DD974305-F3AF-7047-16DB-051EA9F168D8</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="01BDEF0F-2D86-7EB0-765B-F1776F935B50">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>C9A7F5E2-E1C4-0E99-042D-FA1B114EFFED</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dirección" id="19B53024-8697-CD8F-FE81-12BB79FC9880">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>EBE10978-9D9B-526F-652E-221585C1F402</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Nacimiento" id="D2BEBE8A-2335-CF26-2D51-6F09B79AED4D">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>288ECD2B-EA62-5B5E-580A-83B683FCBDB9</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="69FC7A6B-F973-6206-C185-B1934ED5BCC2">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>5F5F40CD-0F85-E957-8068-5BA1EBB39D76</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="A89192BC-F01D-4FC9-3673-3603935919BF">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>F5475C32-D069-15FB-B531-A7A486680A14</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D5273C4-6602-9723-C512-C5B43E6D78C4" name="Cliente_PK">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>5E6496CE-3FD5-4703-B6CB-79720033546C</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDCABE42-48AC-9414-1E79-D2A36C4BB68A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

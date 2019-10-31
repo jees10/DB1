@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C828B77F-C0A3-CF81-20C0-0061F96A1B76" containerWithKeyObject="ADF5BEFC-89A1-BD9A-1C05-953D692BF11D" localFKIndex="177F182A-6568-7D17-86CB-8FDA0DD01DF4" name="Factura_Modo_Pago_FK">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>613F6E54-F3DC-F624-1448-69CD6E540431</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<referredTableLongName>Modo_Pago</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2215A85B-DED1-3957-2BCE-7196FE7E395B</referredTableID>
+<keyObject>35F83A36-0571-9A5B-9821-356FD79BACEA</keyObject>
+<referredKeyID>35F83A36-0571-9A5B-9821-356FD79BACEA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Pago</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

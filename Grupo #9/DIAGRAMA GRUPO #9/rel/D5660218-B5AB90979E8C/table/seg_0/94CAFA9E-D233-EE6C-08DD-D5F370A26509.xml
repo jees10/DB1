@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94CAFA9E-D233-EE6C-08DD-D5F370A26509" name="Estados_Cuenta">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>EAF0B1D3-08F8-A2FC-3FD4-0726342F9545</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_cuenta" id="0B1EC87B-0392-412D-8A9A-F086C36BA0A7">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>27305086-F6C4-6431-33DD-E5E494C498C0</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="CDC1E236-AE8B-4889-3A91-A1A5D5A3A25B">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>674C4212-691C-D98C-45DE-B445FA0F1F09</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripción" id="418CA766-B0AD-F1F8-D84B-FA4F06BD6783">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>36731A83-2626-432E-D7A0-677C20C1989F</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFABE65B-638D-2723-9A55-467BFAF8C367" name="Estados_Cuenta_PK">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:16:21 UTC</createdTime>
+<generatorID>07339970-D871-28F7-90C0-F60EEB216750</generatorID>
+<ownerDesignName>DIAGRAMA GRUPO #9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B1EC87B-0392-412D-8A9A-F086C36BA0A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

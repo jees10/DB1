@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DIAGRAMA GRUPO #9" id="01CABEE0-F197-1904-AAC5-7C57465D7063" version="3.5">
+<createdBy>REYS</createdBy>
+<createdTime>2019-09-28 00:02:57 UTC</createdTime>
+<ownerDesignName>PROYECTO_DIAGRAMA_BASE DE DATOS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>01CABEE0-F197-1904-AAC5-7C57465D7063</designId>
+</OSDM_Design>
